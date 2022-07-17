@@ -1,0 +1,65 @@
+/*Changes color of webpage.*/
+body {
+    background-color:black;
+}
+
+/*Changes color of text that appears in webpage.*/
+h1, h2, h3, h4, h5, h6, p {
+    color:white;
+}
+
+/*Changes color of navbar.*/
+.navbar {
+    background-color: white;
+}
+
+/*Changes color of the nav items.*/
+.nav-items {
+    background-color: white;
+    color: black;  
+
+}
+
+/*Changes color of nav links.*/
+.nav-link {
+    padding: 12px 6px; 
+    border-radius: 12px;
+    color:black
+}
+
+/*Changes color of nav link while active.*/
+.nav-link a:active {
+    color: white;
+}
+
+/*Changes color of nav item when the mouse is over it.*/
+.nav-item a:hover {
+    background-color: black;
+    color: white;
+}
+
+/*Changes color of nav item that's currently being displayed.*/
+.active {
+    background-color: black;
+    color:white
+}
+
+/*Changes color of dropdown.*/
+.dropdown {
+    background-color: black;
+    padding: 12px 6px; 
+    border-radius: 12px;
+}
+
+/*Changes color of dropdown box.*/
+.dropdown-toggle {
+    color:white
+}
+
+/*Makes sure color of dropdown text when the mouse is over it doesn't change.*/
+.dropdown a:hover {
+    background-color: black;
+    color: white;
+}
+
+
