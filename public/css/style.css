@@ -1,6 +1,8 @@
 /*Changes color of webpage.*/
 body {
     background-color:black;
+    width: 100%;
+    margin: 0 auto;
 }
 
 /*Changes color of text that appears in webpage.*/
@@ -14,13 +16,18 @@ h1{
 
 /*Changes color of navbar.*/
 .navbar {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
     background-color: white;
 }
 
 /*Changes color of the nav items.*/
 .nav-items {
     background-color: white;
-    color: black;  
+    color: black; 
+    size-adjust: 10%;
 
 }
 
@@ -65,5 +72,12 @@ h1{
     background-color: black;
     color: white;
 }
+
+.carousel {
+    margin: 6%;
+    object-position: center;
+
+}
+
 
 
