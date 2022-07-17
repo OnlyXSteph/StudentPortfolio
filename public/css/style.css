@@ -8,6 +8,10 @@ h1, h2, h3, h4, h5, h6, p {
     color:white;
 }
 
+h1{
+    text-align: center;
+}
+
 /*Changes color of navbar.*/
 .navbar {
     background-color: white;
