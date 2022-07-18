@@ -15,25 +15,25 @@ h1{
 }
 
 /*Changes color of navbar.*/
-.navbar {
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-
+.navbar { 
+    justify-content: space-between;
     background-color: white;
+    text-transform: uppercase;
+}
+
+.navbar ul{
+    margin: 0;
 }
 
 /*Changes color of the nav items.*/
 .nav-items {
-    background-color: white;
+    padding: 12px; 
     color: black; 
-    size-adjust: 10%;
-
+    margin-right: 10%;
 }
 
 /*Changes color of nav links.*/
 .nav-link {
-    padding: 12px 6px; 
     border-radius: 12px;
     color:black
 }
@@ -55,10 +55,14 @@ h1{
     color:white
 }
 
+.navbar-nav ms-auto {
+    background-color: black;
+}
+
 /*Changes color of dropdown.*/
 .dropdown {
     background-color: black;
-    padding: 12px 6px; 
+    padding: 12px; 
     border-radius: 12px;
 }
 
@@ -74,7 +78,7 @@ h1{
 }
 
 .carousel {
-    margin: 6%;
+    margin: 10%;
     object-position: center;
 
 }
