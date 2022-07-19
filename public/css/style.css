@@ -1,5 +1,7 @@
 /*Changes color of webpage.*/
 body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 500;
     background-color:black;
     width: 100%;
     margin: 0 auto;
@@ -16,6 +18,7 @@ h1{
 
 /*Changes color of navbar.*/
 .navbar { 
+    display: flex;
     justify-content: space-between;
     background-color: white;
     text-transform: uppercase;
@@ -53,10 +56,6 @@ h1{
 .active {
     background-color: black;
     color:white
-}
-
-.navbar-nav ms-auto {
-    background-color: black;
 }
 
 /*Changes color of dropdown.*/
