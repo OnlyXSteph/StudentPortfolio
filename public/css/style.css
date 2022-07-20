@@ -1,17 +1,18 @@
 /*Changes color of webpage.*/
 body {
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: 'Bebas Neue' sans-serif;
     font-weight: 500;
     background-color:black;
     width: 100%;
-    margin: 0 auto;
 }
-
+.container {
+    margin: 10%;
+}
 /*Changes color of text that appears in webpage.*/
 h1, h2, h3, h4, h5, h6, p {
     color:white;
 }
-
+/*Aligns Webpage Headings to Center*/
 h1{
     text-align: center;
 }
@@ -76,11 +77,14 @@ h1{
     color: white;
 }
 
-.carousel {
-    margin: 10%;
-    object-position: center;
 
-}
+ .btn {
+    width: 215px; 
+    background-color: white; 
+    color: black;
+
+ }
+ 
 
 
 
