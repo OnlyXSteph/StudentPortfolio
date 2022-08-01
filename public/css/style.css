@@ -6,7 +6,7 @@ body {
     width: 100%;
 }
 .container {
-    margin: 10%;
+    margin: 10%, 10%;
 }
 /*Changes color of text that appears in webpage.*/
 h1, h2, h3, h4, h5, h6, p {
