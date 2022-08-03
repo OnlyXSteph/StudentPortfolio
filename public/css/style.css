@@ -85,21 +85,10 @@ h1{
     padding: 12px;
 
  }
-
- .map-container-3{
-    overflow:hidden;
-    padding-bottom:56.25%;
-    position:relative;
-    height:0;
-  }
-  .map-container-3 iframe{
-    left:0;
-    top:0;
-    height:100%;
-    width:100%;
-    position:absolute;
-  }
- 
+.btn:hover {
+    background-color: darkgray;
+    outline-color: white;
+}
 
 
 
